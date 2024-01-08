@@ -94,6 +94,10 @@ nav a {
 }
 
 /* Main Section Starts */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* Section styles */
 
@@ -101,13 +105,26 @@ nav a {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px;
+    margin: 130px 30px;
+    max-width: 1140px;
+    flex-shrink: 0;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 }
 
 .section-title {
     color: #181818;
     text-align: center;
     font-weight: 700;
+
+    font-size: 30px;
 }
 
 .section-description {
